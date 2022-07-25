@@ -14,7 +14,7 @@ Love reading, here's blog post:
 - [Regular Setup](#regular-setup)
   - [Cloning + Install Packages](#1-cloning--install-packages)
   - [Deploying](#2-deploying)
-- [Hugo + Netlify Resources](#astro--netlify-resources)
+- [Hugo + Netlify Resources](#hugo--netlify-resources)
 - [Testing](#testing)
   - [Included Default Testing](#included-default-testing)
   - [Removing Renovate](#removing-renovate)
@@ -104,7 +104,3 @@ And lastly if you’d like to remove Cypress entirely, delete the entire `cypre
 ```bash
 npm uninstall cypress
 ```
-
-## Want to learn more?
-
-Feel free to check [our documentation](https://github.com/withastro/astro) or jump into our [Discord server](https://astro.build/chat).
