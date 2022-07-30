@@ -4,9 +4,9 @@
 
 This is a bare-bones Hugo project that has everything you need to quickly deploy it to [Netlify](https://netlify.com). 
 
-Hate reading, here's a video: 
+Hate reading, here's a video: https://youtu.be/t-tsRxxYdpk
 
-Love reading, here's blog post: 
+Love reading, here's blog post: https://www.netlify.com/blog/deploy-your-hugo-app-quick/
 
 ## Table of Contents:
 
