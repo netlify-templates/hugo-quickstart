@@ -22,7 +22,7 @@ body {
   .header h1 {
     padding-top: 5%;
     margin: 0;
-    font-size: 32px; }
+    font-size: calc(max(5vw, 32px)); }
   .header .logo img {
     padding: 60px 0;
     width: 100%; }
