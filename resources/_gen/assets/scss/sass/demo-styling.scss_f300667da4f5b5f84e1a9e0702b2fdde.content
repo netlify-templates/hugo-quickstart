@@ -62,8 +62,7 @@ body {
   .resource-list h2 {
     line-height: 34px;
     width: 50%;
-    margin: 0 auto;
-    padding-bottom: 5%; }
+    margin: 0 auto; }
     @media only screen and (max-width: 450px) {
       .resource-list h2 {
         width: 90%;
