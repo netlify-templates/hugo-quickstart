@@ -4,7 +4,7 @@ describe('empty spec', () => {
   })
   it('displays the resources text', () => {
     cy.get('h2')
-    .contains('Here are some resources to help you on your Hugo + Netlify journey');
+    .contains('This is a bare-bones Astro project that has everything you need to quickly deploy it to Netlify');
   })
   it('renders the image', () => {
     cy.get('img')
