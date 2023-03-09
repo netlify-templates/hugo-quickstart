@@ -1,4 +1,55 @@
-baseURL = 'http://hugo-quickstart-template.netlify.com'
-languageCode = 'en-us'
-title = 'Netlify + Hugo Quickstart'
-theme = 'netlify-basic'
+baseURL = "https://<vanessayoviedo>.github.io/"
+languageCode = "en-us"
+theme = "anatole."
+publishDir = "docs"
+
+[params]
+title = "Vanessa Y. Oviedo"
+author = "VYO"
+description = "The links on this page have more information about my research, work, and personal interests"
+profilePicture = "headshot.jpg"
+Contentratio = 0.7
+hidesidebar = false
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "E-mail"
+url = "mailto:voviedo@ucsc.edu"
+
+[[params.socialIcons]]
+icon = "fas fa-school"
+title = "UCSC lab"
+url = "https://foxtree.sites.ucsc.edu"
+
+[[params.socialIcons]]
+icon = "fas fa-glasses"
+title = "Research Gate"
+url = "https://www.researchgate.net/profile/Vanessa-Oviedo-2"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/vanessa-oviedo-a58a6313a/"
+
+[menu]
+
+[[menu.main]]
+  name = "CV"
+  weight = 100
+  identifier = "CV"
+  url = "/CV"
+
+  [[menu.main]]
+  name = "Academics"
+  weight = 200
+  identifier = "Academics"
+  url = "/research"
+
+ [[menu.main]]
+  name = "Non-Academics"
+  weight = 300
+  identifier = "Non-Academics"
+  url = "/about"
+
+
+
